@@ -3,6 +3,11 @@ Pong.. to the death!
 
 
 # Server
+
+Running the server:
+```
+cargo run -- -s
+```
 The server needs to be run before the clients. It has three different states.
 
 ![server-states](https://github.com/fooki/pong-deathmatch/blob/master/images/server-states.jpg?raw=true)
