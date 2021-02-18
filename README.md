@@ -6,13 +6,26 @@ Pong.. to the death!
 
 Running the server:
 ```
-cargo run -- -s
+cargo run -- -s --addr 127.0.0.1:5555
 ```
 The server needs to be run before the clients. It has three different states.
 
 ![server-states](https://github.com/fooki/pong-deathmatch/blob/master/images/server-states.jpg?raw=true)
 
 For now, it won't bounce back from a client timeouts that reconnects.
+
+# Clients
+
+Clients are run using the command:
+```
+cargo run -- -a 127.0.0.1:5555
+```
+
+You can also run cpu clients:
+
+```
+cargo run -- --cpu -a 127.0.0.1:5555
+```
 
 ## TODO
 
