@@ -2,6 +2,13 @@
 Pong.. to the death!
 
 
+# Server
+The server needs to be run before the clients. It has three different states.
+
+![server-states](https://github.com/fooki/pong-deathmatch/blob/master/images/server-states.jpg?raw=true)
+
+For now, it won't bounce back from a client timeouts that reconnects.
+
 ## TODO
 
 ### Pong game
